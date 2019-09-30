@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            :root{
+                --bg-image: url("loan2.jpg");
+                --border-bg-color: rgba(0,0,0,0.6);
+            } 
+            *, *::before, *::after{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            html, body{
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100vh;
+                height: 100min;
+                background-attachment: fixed;
+                font: 400 15px/1.9 "Lato", sans-serif;
+                background: url("loan2.jpg");
+                text-align: center;
+            }
+            .wrapper{
+                color: #fff;
+                display: block;
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 100px;
+                margin:250px;
+                padding: 10px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 50px;
+                display: block;
+                background-color: white;
+                padding: 0%;
+                margin: 10px;
+                border-radius: 10px;
+                border: 1px solid black;
+                color: black;
+            }
+            a:hover{
+                color: white;
+                background-color:var(--border-bg-color);
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class = "wrapper">
+            <header>
+                <h1>LOAN CALCULATOR</h1>
+            </header>
+            <h2>Loans - One Stop Solutions for All Your Financial Needs</h2>
+            <div>
+                <a href = "home.php">Home Loan</a>
+            </div>
+            <div>
+                <a href = "car.php">Car Loan</a>
+            </div>
+            <div>
+                <a href = "personal.php">Personal Loan</a>
+            </div>
+        </div>
+    </body>
+</html>
