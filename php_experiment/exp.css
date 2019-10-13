@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color : rgb(32, 11, 223);
+}
+h1{
+    color: white;
+    font-size: 50px;<link rel = "stylesheet" type = "text/css" href="exp.css"/>
+}
+a:hover{
+    color: green;
+}
+body{
+    background-color:rgb(10, 0, 0);
+}
+h3{
+    color : white;
+}
