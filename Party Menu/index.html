@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Party menu</title>
+    </head>
+        <style>
+            *, *::before, *::after{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body, html{
+                font: 400 15px/2 "Lato", sans-serif;
+            }
+            header{
+                background: #71b0d3;
+                text-align: center;
+                padding: 4vmin 0;
+            }
+            header h1{
+                font: 850 50px/1 "Lato", sans-serif;
+            }
+            header h1 .white{
+                color: #fff;
+                text-shadow: -2px 0 1px #000;
+            }
+            header h1 .black{
+                color: #000;
+                text-shadow: 2px 0 1px #fff;
+            }
+            .img1{
+                background: url("bday.jpg");
+                width: 50vmin;
+                height: 50vmin;
+                background-size: 50vmin;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-origin: center;
+            }
+            header div{
+                text-transform: uppercase;
+                color: #000;
+                font-weight: 800;
+            }
+            section{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin: 1vmin;
+                padding: 1vmin;
+                border: 4px solid #71b0d3;
+            }
+            a.img{
+                width: 30%;
+                display: block;
+                background: #fff;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.18);
+                margin-bottom: 25px;
+            }
+            a{
+                text-decoration: none;
+                color: #000;
+                text-transform: uppercase;
+            }
+            a:hover{
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.48);
+            }
+            div.container{
+                text-align: center;
+                padding: 10px 20px;
+            }
+        </style>
+    <body>
+        <header>
+            <h1><span class ="white">party</span><span class = "black">maker</span></h1>
+            <div class = "about">we organise parties that you will remember!!!</div>
+        </header>
+        <section>
+            <a href = "bday.php" class = "img">
+                <img src = "bday.jpg" style = "width:100%">
+                <div class = "container">
+                    <p>Birthday Parties</p>
+                </div>
+            </a>
+            <a href = "bachelor.php" class = "img">
+                <img src = "bachelor.jpg" style = "width:100%">
+                <div class = "container">
+                    <p>Bachelor Parties</p>
+                </div>
+            </a>
+            <a href = "marriage.php" class = "img">
+                <img src = "marriage.jpg" style = "width:100%">
+                <div class = "container">
+                    <p>Marriage Parties</p>
+                </div>
+            </a>
+        </section>
+    </body>
+<html>
